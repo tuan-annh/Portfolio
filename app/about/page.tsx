@@ -6,22 +6,29 @@ const AboutPage = () => {
   return (
     <div
       style={{ backgroundImage: "url(/bg-3.jpg)" }}
-      className="h-screen flex justify-center items-center w-screen bg-cover bg-center gap-24 px-5"
+      className="h-screen flex md:flex-row flex-col md:justify-center items-center w-screen bg-cover bg-center gap-12 md:gap-20 px-5"
     >
-      <div className="relative">
+      <div className="relative mt-10 md:mt-auto">
         <Image
           src="/image-about.png"
           alt="image-about"
           width={400}
           height={400}
-          className="object-contain relative z-10"
+          className="object-contain relative z-10 hidden md:block"
+        />
+        <Image
+          src="/image-about.png"
+          alt="image-about"
+          width={400}
+          height={400}
+          className="object-contain relative z-10 block mx-auto md:hidden w-1/2"
         />
         <div className="absolute animate-ping rounded-full w-[250px] h-[250px] border-8 bottom-[60%] right-[60%]"></div>
         <div className="absolute animate-ping rounded-full w-[250px] h-[250px] border-8 bottom-[60%] left-[60%]"></div>
         <div className="absolute animate-ping rounded-full w-[250px] h-[250px] border-8 top-[60%] left-[60%]"></div>
         <div className="absolute animate-ping rounded-full w-[250px] h-[250px] border-8 top-[60%] right-[60%]"></div>
       </div>
-      <div className="text-white gap-3 flex flex-col justify-center items-start text-2xl">
+      <div className="text-white gap-3 flex flex-col justify-center items-center md:items-start text-xl md:text-2xl">
         <span>Xin chào, mình là Đinh Tuấn Anh </span>
         <span>
           <span className="font-bold">Ngày sinh: </span>04-10-2001

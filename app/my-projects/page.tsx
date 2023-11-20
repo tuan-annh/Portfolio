@@ -8,12 +8,12 @@ const ProjectPage = () => {
   return (
     <div
       style={{ backgroundImage: "url(/bg-2.jpg)" }}
-      className="h-screen flex flex-col gap-10 items-center w-screen bg-cover bg-center"
+      className="h-full md:h-screen flex flex-col gap-10 items-center w-screen bg-cover bg-center"
     >
       <span className="text-white text-[50px] animate-bounce mt-16">
         Amazing Projects
       </span>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-36 md:mb-auto">
         {Projects.map((item, index) => (
           <div
             key={index}

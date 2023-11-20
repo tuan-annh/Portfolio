@@ -24,7 +24,7 @@ const SkillPage = () => {
           autoplay={{ delay: 0, disableOnInteraction: false }}
           speed={4000}
           modules={[Autoplay]}
-          className="max-w-[70%]"
+          className="max-w-[95%] md:max-w-[70%]"
         >
           {SkillData.map((skill, index) => (
             <SwiperSlide key={index}>
@@ -47,7 +47,7 @@ const SkillPage = () => {
           }}
           speed={4000}
           modules={[Autoplay]}
-          className="max-w-[70%]"
+          className="max-w-[95%] md:max-w-[70%]"
         >
           {SkillData.map((skill, index) => (
             <SwiperSlide key={index}>

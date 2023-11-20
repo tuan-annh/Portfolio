@@ -14,12 +14,12 @@ export default function Home() {
             width={250}
             height={250}
             alt="my-image"
-            className="rounded-full mx-auto  border-8 "
+            className="rounded-full mx-auto border-8"
           />
-          <h1 className="text-[50px] text-center text-white font-semibold">
+          <h1 className="text-[45px] md:text-[50px] text-center text-white font-semibold">
             Đinh Tuấn Anh
           </h1>
-          <p className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 animate-bounce">
+          <p className="text-[45px] md:text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 animate-bounce">
             Front-End Development
           </p>
         </div>

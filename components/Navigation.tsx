@@ -29,7 +29,7 @@ const Navigation = () => {
   return (
     <>
       {isRouting && <Transition />}
-      <div className="absolute z-[50] left-1/2 -translate-x-1/2 rounded-full w-[500px] bottom-10 flex justify-between items-center border bg-black border-white px-10 py-7">
+      <div className="fixed z-[50] left-1/2 -translate-x-1/2 rounded-full w-[500px] bottom-10 flex justify-between items-center border bg-black border-white px-10 py-7">
         {NavLinks.map((nav) => (
           <Link key={nav.name} href={nav.link}>
             <nav.icon
