@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 const AboutPage = () => {
   return (
     <div
@@ -35,7 +36,12 @@ const AboutPage = () => {
         <span>
           <span className="font-bold">Nghề nghiệp: </span>Lập trình viên Web
         </span>
-        <button className="flex justify-center items-center gap-2 px-6 mt-5 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700">
+        <Link
+          href="/DinhTuanAnh_Intern_Front-End.pdf"
+          className="flex justify-center items-center gap-2 px-6 mt-5 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700"
+          download={true}
+          target="_blank"
+        >
           Download CV
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +57,7 @@ const AboutPage = () => {
               d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
             />
           </svg>
-        </button>
+        </Link>
       </div>
     </div>
   )

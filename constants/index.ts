@@ -60,20 +60,28 @@ export const SkillData = [
 
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    src: "/NextWebsite.png",
+    title: "Portfolio",
+    src: "/project1.png",
+    content: "Website giới thiệu về bản thân.",
+    href: "https://portfolio-tuan-annh.vercel.app/",
   },
   {
-    title: "Space Themed Website",
-    src: "/SpaceWebsite.png",
+    title: "Web Bán Hoa",
+    src: "/project2.png",
+    content: "Website thương mại điện tử hỗ trợ đặt hàng online.",
+    href: "https://webbanhoa.vercel.app/",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    src: "/WebPortfolio.png",
+    title: "Web Thương Mại",
+    src: "/project3.png",
+    content: "Website thương mại điện tử hỗ trợ đặt hàng online.",
+    href: "https://web-clonee.vercel.app/",
   },
   {
-    title: "Matrix themed Website",
-    src: "/Matrix.png",
+    title: "Web The Band",
+    src: "/project4.png",
+    content: "Website dùng thuần html,css,js.",
+    href: "https://web-the-band-umber.vercel.app/",
   },
 ]
 
