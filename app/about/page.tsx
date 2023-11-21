@@ -8,7 +8,7 @@ const AboutPage = () => {
       style={{ backgroundImage: "url(/bg-3.jpg)" }}
       className="h-screen flex md:flex-row flex-col md:justify-center items-center w-screen bg-cover bg-center gap-12 md:gap-20 px-5"
     >
-      <div className="relative mt-10 md:mt-auto">
+      <div className="relative mt-10 md:mt-0">
         <Image
           src="/image-about.png"
           alt="image-about"
